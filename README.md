@@ -50,26 +50,22 @@ All tasks are implemented in Java, including both console-based and JavaFX-based
   -Input validation for empty fields and duplicate roll numbers.
 -**Tech Stack:** Java, JavaFX (GUI), File I/O (CSV).
 
-
-
-**Run Command Example (Windows, JavaFX 17):**
-```bash
-javac --module-path "C:\Program Files\Java\javafx-sdk-17.0.16\lib" --add-modules javafx.controls,javafx.fxml -d out src\application\*.java
-java --module-path "C:\Program Files\Java\javafx-sdk-17.0.16\lib" --add-modules javafx.controls,javafx.fxml -cp out application.Main
-
+---
 
 ## Prerequisites
 - **Java JDK 17 or later** installed
 - **JavaFX SDK** downloaded (example: `C:\Program Files\Java\javafx-sdk-17.0.16`)
 - Add `bin` folder of JDK to the `PATH` environment variable.
 
+---
+
 ## How to Compile & Run
 
 ###  Open Command Prompt and go to project folder
 ### Compile:
-javac -encoding UTF-8 --module-path "C:\Program Files\Java\javafx-sdk-17.0.16\lib" --add-modules javafx.controls,javafx.fxml SmartNumberTrainer.java
+javac -encoding UTF-8 --module-path "C:\Program Files\Java\javafx-sdk-17.0.16\lib" --add-modules javafx.controls,javafx.fxml filename.java
 ### Run
-java --module-path "C:\Program Files\Java\javafx-sdk-17.0.16\lib" --add-modules javafx.controls,javafx.fxml SmartNumberTrainer
+java --module-path "C:\Program Files\Java\javafx-sdk-17.0.16\lib" --add-modules javafx.controls,javafx.fxml filename
 
 
 ## Author
