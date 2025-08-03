@@ -1,13 +1,62 @@
-# Smart Number Trainer 🎓
+# CODSOFT Java Internship Tasks
 
-A simple **JavaFX** based number guessing game built as part of the **CodSoft Internship Task 1**.  
-This project is created and run using **Notepad** for editing and **Command Prompt** for compilation
+This repository contains solutions for all tasks completed during the CODSOFT Java internship program.  
+All tasks are implemented in Java, including both console-based and JavaFX-based applications.
 
-## Features
-- Difficulty Levels: **Easy (1–100)**, **Medium (1–500)**, **Hard (1–1000)**
-- Intelligent Hint System (Odd/Even,Range,Starting number)
-- Score calculation and hint penalty system
-- Simple, user-friendly interface built in JavaFX
+---
+
+## Tasks Overview
+
+### **Task 1 - Number Guessing Game**
+- **Features:**
+  - Generates a random number within a given range.
+  - User guesses until the correct number is found.
+  - Shows attempts and feedback for each guess.
+- **Tech Stack:** Java (Core), Scanner for input.
+
+---
+
+### **Task 2 - Student Grade Calculator**
+- **Features:**
+  - Input marks for multiple subjects.
+  - Calculate average percentage and assign grade.
+  - Display final result in console.
+- **Tech Stack:** Java (Core), Arrays, Loops.
+
+---
+
+### **Task 3 - ATM Interface**
+- **Features:**
+  - User authentication with PIN.
+  - Balance inquiry, cash withdrawal, deposit, and transfer.
+  - Console-based interactive menu.
+- **Tech Stack:** Java (Core), OOP principles.
+
+---
+
+### **Task 4 - Currency Converter (JavaFX)**
+- **Features:**
+  - Select base currency and target currency.
+  - Enter amount and convert in real-time.
+  - Fetch real-time exchange rates (API integrated).
+  - Display conversion result with target currency symbol.
+- **Tech Stack:** Java, JavaFX (GUI), API Integration (HTTP).
+
+### **Task 5 - Student Management System (JavaFX)**
+-**Features:**
+  -Add, edit, delete, and search students.
+  -Display all students in a TableView.
+  -Auto-save and load student data from a CSV file.
+  -Input validation for empty fields and duplicate roll numbers.
+-**Tech Stack:** Java, JavaFX (GUI), File I/O (CSV).
+
+
+
+**Run Command Example (Windows, JavaFX 17):**
+```bash
+javac --module-path "C:\Program Files\Java\javafx-sdk-17.0.16\lib" --add-modules javafx.controls,javafx.fxml -d out src\application\*.java
+java --module-path "C:\Program Files\Java\javafx-sdk-17.0.16\lib" --add-modules javafx.controls,javafx.fxml -cp out application.Main
+
 
 ## Prerequisites
 - **Java JDK 17 or later** installed
